@@ -1,0 +1,15 @@
+# Treat binaries as binary — never apply line-ending conversion.
+*.pdf  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
+*.woff  binary
+*.woff2 binary
+
+# Normalise text
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.svg  text eol=lf
+*.md   text eol=lf
