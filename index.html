@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kaiden Penney — computer science junior at Washington State University (3.88 GPA, graduating December 2027). Java and Spring Boot backend work, a summer managing enterprise device policy at SanMar, and $18,000 in merit scholarships. Seeking a Summer 2027 software engineering internship in the Puget Sound area.">
+  <meta name="author" content="Kaiden Penney">
+  <meta name="theme-color" content="#08315C">
+  <link rel="canonical" href="https://kaidenpenney.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Kaiden Penney — Software Engineering">
+  <meta property="og:description" content="CS junior at Washington State University. Java, Spring Boot, PostgreSQL, enterprise device management. Seeking a Summer 2027 software engineering internship in the Seattle area.">
+  <meta property="og:url" content="https://kaidenpenney.github.io/">
+  <meta property="og:image" content="https://kaidenpenney.github.io/assets/headshot.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Kaiden Penney</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>document.documentElement.classList.add("has-js");</script>
+</head>
+<body>
+
+<a class="skip" href="#about">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__mark" href="#top">Kaiden&nbsp;Penney</a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#now">Now</a>
+      <a href="#academics">Education</a>
+      <a href="#awards">Awards</a>
+      <a href="#skills">Skills</a>
+      <a href="#beyond">Beyond</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button type="button" id="theme-toggle" class="nav__cta nav__theme" aria-label="Switch theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor" stroke="none"></path>
+      </svg>
+    </button>
+    <a class="nav__cta" href="assets/KaidenPenney_Resume_SWE.pdf" target="_blank" rel="noopener">Resume</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <figure class="portrait">
+        <img src="assets/headshot.jpg" width="1000" height="1000"
+             alt="Kaiden Penney" fetchpriority="high">
+        <figcaption class="portrait__tag"><span class="dot"></span> Open to Summer 2027</figcaption>
+      </figure>
+
+      <div>
+        <p class="hero__eyebrow">Pullman, WA &middot; home in Maple Valley &middot; US Citizen</p>
+        <h1>Kaiden Penney</h1>
+        <p class="hero__role">
+          <b>B.S. Computer Science</b>, minor in Mathematics &mdash;
+          Washington State University, December 2027
+        </p>
+        <p class="hero__thesis">
+          I build backend services in Java and Spring Boot. The part of the work I care about is
+          what happens when something that ran once on one machine has to stay correct for everyone
+          at once. Last summer I spent that on device policy at enterprise scale, auditing and
+          migrating Group Policy into Microsoft Intune across SanMar&rsquo;s endpoint fleet.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="assets/KaidenPenney_Resume_SWE.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"></path><path d="m7 11 5 5 5-5"></path><path d="M4 20h16"></path>
+            </svg>
+            Download resume
+          </a>
+          <a class="btn btn--ghost" data-e="bXJwZW5uZXkxMDMwQGdtYWlsLmNvbQ==">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="m3 7 9 6 9-6"></path>
+            </svg>
+            <span data-e-text>mrpenney1030 (at) gmail.com</span>
+          </a>
+          <a class="btn btn--ghost" href="https://github.com/KaidenPenney" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+            GitHub
+          </a>
+        </div>
+
+        <dl class="stats">
+          <div><dt>Cumulative GPA</dt><dd>3.88</dd></div>
+          <div><dt>Graduating</dt><dd>Dec 2027</dd></div>
+          <div><dt>Merit awards</dt><dd>$18K</dd></div>
+          <div><dt>Cloud certs</dt><dd>3</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">About</p>
+        <h2>Where I&rsquo;m coming from</h2>
+      </div>
+
+      <div class="about">
+        <div class="about__prose reveal">
+          <p>
+            I grew up in <strong>Maple Valley, Washington</strong> and went through Running Start,
+            which meant leaving high school with an <strong>associate degree in computer
+            science</strong> from Green River College &mdash; 90 credits at a 3.77 GPA &mdash;
+            already finished. I&rsquo;m now a junior at <strong>Washington State University</strong>
+            studying computer science with a minor in mathematics, graduating December 2027, holding
+            a <strong>3.88 GPA</strong> including a 4.0 semester this past spring.
+          </p>
+
+          <p class="pull">Most of what I&rsquo;ve built started as a course assignment I wasn&rsquo;t finished with.</p>
+
+          <p>
+            The clearest example is the guessing-game API. It began as a recursive binary-tree
+            project in an intro course, where the tree only had to survive one run on one machine.
+            Putting it on the web broke that assumption, so I rebuilt the traversal as an
+            <strong>iterative, stateless walk</strong>, moved the tree into PostgreSQL so every
+            visitor shares and extends the same one, and containerized the service. Finding out
+            exactly where the original design stopped holding taught me more than the assignment did.
+          </p>
+
+          <p>
+            That same question &mdash; what breaks when one becomes many &mdash; is what made last
+            summer click. On <strong>SanMar&rsquo;s software operations team</strong> in Issaquah I
+            wasn&rsquo;t writing application code; I was working out why 68 groups of Group Policy
+            settings couldn&rsquo;t follow a fleet of devices into modern management, then scripting
+            the migration into Intune in PowerShell. Policy that works on one machine and policy that
+            holds across thousands of endpoints are different problems, and the second one is the
+            interesting one.
+          </p>
+
+          <p>
+            This fall I&rsquo;m taking Software Engineering I, Machine Learning, Programming Language
+            Design and Automata, and shipping projects alongside them. I&rsquo;m looking for a
+            <strong>Summer 2027 software engineering internship</strong>, ideally back in the Puget
+            Sound area.
+          </p>
+        </div>
+
+        <dl class="facts reveal">
+          <div><dt>Term-time</dt><dd>Pullman, Washington</dd></div>
+          <div><dt>Hometown</dt><dd>Maple Valley, Washington</dd></div>
+          <div><dt>Open to</dt><dd>Puget Sound &middot; Seattle area &middot; remote</dd></div>
+          <div><dt>Seeking</dt><dd>Summer 2027 SWE internship</dd></div>
+          <div><dt>Status</dt><dd>US Citizen &mdash; no sponsorship needed</dd></div>
+          <div><dt>Focus</dt><dd>Backend services, REST APIs, systems at scale</dd></div>
+          <div><dt>Degree</dt><dd>B.S. Computer Science, Mathematics minor</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section class="section section--sunk" id="experience">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Professional experience</p>
+        <h2>Summer 2026 at SanMar</h2>
+      </div>
+
+      <article class="role reveal">
+        <div class="role__top">
+          <h3>Software Operations Intern</h3>
+          <span class="role__org">SanMar</span>
+          <span class="role__meta">May &ndash; Aug 2026<br>Issaquah, WA</span>
+        </div>
+
+        <ul class="bullets">
+          <li>
+            Identified <strong>68 groups of unsupported Group Policy configurations</strong> using
+            Intune Group Policy Analytics, scripted the audit in PowerShell so it could be re-run
+            rather than repeated by hand, and turned the results into a structured migration roadmap
+            toward Microsoft Autopilot.
+          </li>
+          <li>
+            Migrated enterprise Group Policies into Microsoft Intune through PowerShell scripting,
+            consolidating overlapping firewall rules and cutting redundant policy sprawl by
+            <strong>62%</strong>.
+          </li>
+          <li>
+            Validated post-migration policy enforcement with systematic endpoint testing, raising
+            MDM support coverage by <strong>23%</strong> across the managed device fleet.
+          </li>
+        </ul>
+
+        <div class="card__foot">
+          <div class="tags">
+            <span class="tag">PowerShell</span>
+            <span class="tag">Microsoft Intune</span>
+            <span class="tag">Group Policy</span>
+            <span class="tag">Autopilot</span>
+            <span class="tag">Endpoint testing</span>
+            <span class="tag">Device fleet management</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Selected work</p>
+        <h2>Things I&rsquo;ve built</h2>
+        <p>
+          Four projects worth your time. Everything with a public repository is linked &mdash; read
+          the code rather than taking my word for it.
+        </p>
+      </div>
+
+      <div class="grid-2 stagger">
+
+        <article class="card">
+          <div class="card__head">
+            <p class="card__kicker"><span>Jun &ndash; Aug 2025</span><span class="card__flag">Solo &middot; full-stack</span></p>
+            <h3>Online Adapting Guesser</h3>
+            <p class="card__sub">Spring Boot REST API over a persisted decision tree</p>
+          </div>
+          <ul class="bullets">
+            <li>
+              Architected a <strong>three-layer Spring Boot REST API</strong> &mdash; controller,
+              service, repository &mdash; over PostgreSQL so a single shared decision tree persists
+              across every visitor&rsquo;s session. Containerized with Docker and validated endpoint
+              by endpoint in Postman.
+            </li>
+            <li>
+              Re-engineered a recursive binary-tree traversal from earlier coursework into an
+              <strong>iterative, stateless walk</strong>, restructuring the tree to expand on each
+              wrong guess so recursion depth never rides along into concurrent web requests.
+            </li>
+          </ul>
+          <div class="card__foot">
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">Spring Boot</span>
+              <span class="tag">PostgreSQL</span><span class="tag">Docker</span>
+              <span class="tag">Postman</span><span class="tag">JavaScript</span>
+            </div>
+            <a class="srclink" href="https://github.com/KaidenPenney/question-tree" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              Source
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__head">
+            <p class="card__kicker"><span>Sep 2026</span><span class="card__flag">Solo</span></p>
+            <h3>E-Commerce Analytics Dashboard</h3>
+            <p class="card__sub">Notebook refactor &rarr; tested modules &rarr; Streamlit app</p>
+          </div>
+          <ul class="bullets">
+            <li>
+              Refactored a <strong>70-cell exploratory notebook</strong> &mdash; no functions, no
+              markdown, the same merge/groupby logic retyped across a dozen cells and hardcoded to
+              one year &mdash; into three importable modules with one function per business question.
+            </li>
+            <li>
+              Covered every function with <strong>23 pytest unit tests</strong> checked by arithmetic
+              against hand-built DataFrames, then wrapped the modules in a Streamlit dashboard with a
+              year selector and a warning banner for years with too little data to be meaningful.
+            </li>
+          </ul>
+          <div class="card__foot">
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">pandas</span>
+              <span class="tag">Streamlit</span><span class="tag">pytest</span>
+              <span class="tag">Plotly</span>
+            </div>
+            <a class="srclink" href="https://github.com/KaidenPenney/322-Optional-Assignment" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              Source
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__head">
+            <p class="card__kicker"><span>Apr 2026 &middot; CPT_S 315</span><span class="card__flag">Team of 4</span></p>
+            <h3>Credit Card Fraud Detection Pipeline</h3>
+            <p class="card__sub">Imbalanced classification, end to end</p>
+          </div>
+          <ul class="bullets">
+            <li>
+              Built a full pipeline over <strong>284,807 transactions</strong> in which fraud accounts
+              for just 492 cases &mdash; <strong>0.17%</strong> of the data &mdash; owning preprocessing
+              and feature scaling for the team.
+            </li>
+            <li>
+              Tuned model selection toward <strong>recall</strong> rather than raw accuracy, since a
+              model that predicts &ldquo;not fraud&rdquo; every time scores 99.8%. Evaluated with
+              ROC-AUC, confusion matrix and precision/recall/F1, holding the missed-fraud rate under
+              1% on the held-out set.
+            </li>
+          </ul>
+          <div class="card__foot">
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">scikit-learn</span>
+              <span class="tag">pandas</span><span class="tag">NumPy</span>
+            </div>
+            <span class="srcnote">Coursework &mdash; repo kept private</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__head">
+            <p class="card__kicker"><span>Dec 2025</span><span class="card__flag">Solo</span></p>
+            <h3>Instagram Follower Comparison Extension</h3>
+            <p class="card__sub">Chrome extension, content script + popup</p>
+          </div>
+          <ul class="bullets">
+            <li>
+              Built a content-script and popup extension that drives simulated infinite scroll to
+              collect <strong>2,000+ follower and following usernames</strong> straight from the live
+              DOM, with no dependency on Instagram&rsquo;s private API.
+            </li>
+            <li>
+              Computed the set difference between the two username arrays client-side and rendered
+              the non-reciprocal accounts in an interactive popup interface.
+            </li>
+          </ul>
+          <div class="card__foot">
+            <div class="tags">
+              <span class="tag">JavaScript</span><span class="tag">Chrome Extensions</span>
+              <span class="tag">DOM scripting</span><span class="tag">HTML/CSS</span>
+            </div>
+            <a class="srclink" href="https://github.com/KaidenPenney/Instagram-Follower-Google-Extension" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              Source
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="earlier reveal">
+        <p class="earlier__label">Earlier coursework &mdash; CPT_S 123, kept for reference</p>
+        <ul class="earlier__list">
+          <li>
+            <a href="https://github.com/KaidenPenney/GrammarSolver" target="_blank" rel="noopener">Grammar Solver</a>
+            <span class="earlier__desc">Recursive context-free grammar engine generating valid sentences from a HashMap of rules &middot; Java</span>
+            <span class="earlier__when">May 2025</span>
+          </li>
+          <li>
+            <a href="https://github.com/KaidenPenney/Assassin-Manager" target="_blank" rel="noopener">Assassin Manager</a>
+            <span class="earlier__desc">Elimination-game simulation over two hand-written singly linked lists &middot; Java</span>
+            <span class="earlier__when">Aug 2025</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== NOW ==================== -->
+  <section class="section section--sunk" id="now">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Fall 2026 &middot; in progress</p>
+        <h2>What I&rsquo;m working on right now</h2>
+        <p>
+          Five courses this semester, each with work in flight. Write-ups and repositories go up here
+          as they ship.
+        </p>
+      </div>
+
+      <ul class="now stagger">
+        <li>
+          <span class="now__code">CPT_S 322</span>
+          <span class="now__title">Software Engineering I</span>
+          <span class="now__note">Team Agile project running the full semester &mdash; requirements, sprint planning and a shared codebase. Ships December 2026.</span>
+        </li>
+        <li>
+          <span class="now__code">CPT_S 437</span>
+          <span class="now__title">Intro to Machine Learning</span>
+          <span class="now__note">Supervised and unsupervised methods implemented from the underlying mathematics rather than called from a library.</span>
+        </li>
+        <li>
+          <span class="now__code">CPT_S 355</span>
+          <span class="now__title">Programming Language Design</span>
+          <span class="now__note">Interpreters, type systems and evaluation strategies &mdash; how the languages I use are actually put together.</span>
+        </li>
+        <li>
+          <span class="now__code">CPT_S 317</span>
+          <span class="now__title">Automata &amp; Formal Languages</span>
+          <span class="now__note">Finite automata, grammars and decidability: the theory of what can be computed at all.</span>
+        </li>
+        <li>
+          <span class="now__code">STAT 360</span>
+          <span class="now__title">Probability &amp; Statistics</span>
+          <span class="now__note">Distributions and inference &mdash; the statistical foundation sitting underneath the machine learning coursework.</span>
+        </li>
+      </ul>
+
+      <p class="now-note reveal">
+        <span class="dot"></span>
+        Detailed write-ups and source links go live as each project is finished.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== ACADEMICS ==================== -->
+  <section class="section" id="academics">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Education &middot; 2025 &ndash; 2027</p>
+        <h2>Degrees and coursework</h2>
+        <p>
+          Two degrees by the time I finish: an associate in computer science earned before I left
+          high school, and the bachelor&rsquo;s I&rsquo;m finishing in December 2027. Full WSU
+          record below.
+        </p>
+      </div>
+
+      <div class="edu reveal">
+        <div class="edu__item">
+          <div class="edu__main">
+            <h3>B.S. Computer Science <span class="edu__minor">&mdash; minor in Mathematics</span></h3>
+            <p class="edu__school">Washington State University &middot; Pullman, WA</p>
+          </div>
+          <div class="edu__meta">
+            <span class="edu__when">Expected Dec 2027</span>
+            <span class="edu__gpa">GPA <b>3.88</b></span>
+          </div>
+        </div>
+        <div class="edu__item">
+          <div class="edu__main">
+            <h3>Associate Degree, Computer Science</h3>
+            <p class="edu__school">Green River College &middot; earned through Running Start, before high school graduation</p>
+          </div>
+          <div class="edu__meta">
+            <span class="edu__when">2025</span>
+            <span class="edu__gpa">GPA <b>3.77</b></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="terms">
+
+        <section class="term reveal">
+          <div class="term__head">
+            <h3>Fall 2025</h3>
+            <span class="badge">President&rsquo;s Honor Roll</span>
+            <span class="term__gpa">18 credits &middot; Term GPA <b>3.78</b></span>
+          </div>
+          <div class="tscroll"><table class="courses">
+            <caption class="vh">Fall 2025 coursework</caption>
+            <thead>
+              <tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col" class="c-cr">Cr</th><th scope="col" class="c-gr">Grade</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="c-code">CPT_S 233</td><td>Advanced Data Structures in Java</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A-">A&minus;</td></tr>
+              <tr><td class="c-code">CPT_S 260</td><td>Introduction to Computer Architecture</td><td class="c-cr">3.0</td><td class="c-gr" data-g="B+">B+</td></tr>
+              <tr><td class="c-code">MATH 216</td><td>Discrete Structures</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">PHIL 201</td><td>Introduction to Formal Logic</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">E_M 464</td><td>Project Management Foundations</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">ENGL 402</td><td>Technical &amp; Professional Writing</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A-">A&minus;</td></tr>
+            </tbody>
+          </table></div>
+        </section>
+
+        <section class="term reveal">
+          <div class="term__head">
+            <h3>Spring 2026</h3>
+            <span class="badge">President&rsquo;s Honor Roll</span>
+            <span class="term__gpa">15 credits &middot; Term GPA <b>4.00</b></span>
+          </div>
+          <div class="tscroll"><table class="courses">
+            <caption class="vh">Spring 2026 coursework</caption>
+            <thead>
+              <tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col" class="c-cr">Cr</th><th scope="col" class="c-gr">Grade</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="c-code">CPT_S 370</td><td>Systems Programming in Java</td><td class="c-cr">4.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">CPT_S 315</td><td>Introduction to Data Mining</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">CPT_S 327</td><td>Cyber Security &amp; Cryptography</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">CPT_S 302</td><td>Professional Skills for Computing Engineers</td><td class="c-cr">3.0</td><td class="c-gr" data-g="A">A</td></tr>
+              <tr><td class="c-code">MATH 220</td><td>Introductory Linear Algebra</td><td class="c-cr">2.0</td><td class="c-gr" data-g="A">A</td></tr>
+            </tbody>
+          </table></div>
+        </section>
+
+        <section class="term reveal">
+          <div class="term__head">
+            <h3>Fall 2026</h3>
+            <span class="badge badge--live">In progress</span>
+            <span class="term__gpa">15 credits</span>
+          </div>
+          <div class="tscroll"><table class="courses">
+            <caption class="vh">Fall 2026 coursework, in progress</caption>
+            <thead>
+              <tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col" class="c-cr">Cr</th><th scope="col" class="c-gr">Grade</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="c-code">CPT_S 322</td><td>Software Engineering I</td><td class="c-cr">3.0</td><td class="c-gr" data-g="&mdash;">&mdash;</td></tr>
+              <tr><td class="c-code">CPT_S 437</td><td>Introduction to Machine Learning</td><td class="c-cr">3.0</td><td class="c-gr" data-g="&mdash;">&mdash;</td></tr>
+              <tr><td class="c-code">CPT_S 355</td><td>Programming Language Design</td><td class="c-cr">3.0</td><td class="c-gr" data-g="&mdash;">&mdash;</td></tr>
+              <tr><td class="c-code">CPT_S 317</td><td>Automata &amp; Formal Languages</td><td class="c-cr">3.0</td><td class="c-gr" data-g="&mdash;">&mdash;</td></tr>
+              <tr><td class="c-code">STAT 360</td><td>Probability &amp; Statistics</td><td class="c-cr">3.0</td><td class="c-gr" data-g="&mdash;">&mdash;</td></tr>
+            </tbody>
+          </table></div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== AWARDS ==================== -->
+  <section class="section section--sunk" id="awards">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Awards &amp; recognition</p>
+        <h2>Scholarships and honors</h2>
+        <p>
+          <strong>$18,000</strong> in competitive scholarships and merit-based tuition awards across
+          two years at Washington State and one from my high school, plus departmental and university honors.
+        </p>
+      </div>
+
+      <div class="reveal">
+        <div class="tscroll"><table class="atable">
+          <caption class="vh">Scholarships and merit awards</caption>
+          <thead>
+            <tr>
+              <th scope="col">Award</th>
+              <th scope="col">Type</th>
+              <th scope="col">Year</th>
+              <th scope="col" class="a-amt">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="a-name">University Achievement Award, Level 1</td>
+              <td class="a-type">Merit waiver &middot; renewable</td>
+              <td class="a-yr">2025 &ndash; 2027</td>
+              <td class="a-amt">$8,000</td>
+            </tr>
+            <tr>
+              <td class="a-name">EECS General Scholarship Fund</td>
+              <td class="a-type">Departmental scholarship</td>
+              <td class="a-yr">2026 &ndash; 27</td>
+              <td class="a-amt">$4,000</td>
+            </tr>
+            <tr>
+              <td class="a-name">Frank Harold Engineering Scholarship</td>
+              <td class="a-type">Endowed scholarship</td>
+              <td class="a-yr">2025 &ndash; 26</td>
+              <td class="a-amt">$3,000</td>
+            </tr>
+            <tr>
+              <td class="a-name">Top Scholars Resident Tuition Waiver</td>
+              <td class="a-type">Merit waiver</td>
+              <td class="a-yr">2025 &ndash; 26</td>
+              <td class="a-amt">$1,500</td>
+            </tr>
+            <tr>
+              <td class="a-name">Experience WSU Waiver, Year 1</td>
+              <td class="a-type">Merit waiver</td>
+              <td class="a-yr">2025 &ndash; 26</td>
+              <td class="a-amt">$1,000</td>
+            </tr>
+            <tr>
+              <td class="a-name">Tahoma General Scholarship Fund</td>
+              <td class="a-type">High school scholarship</td>
+              <td class="a-yr">2025</td>
+              <td class="a-amt">$500</td>
+            </tr>
+            <tr class="a-total">
+              <td class="a-name">Total</td>
+              <td class="a-type"></td>
+              <td class="a-yr"></td>
+              <td class="a-amt">$18,000</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <ul class="honors reveal">
+        <li><b>President&rsquo;s Honor Roll</b> &mdash; both semesters <span class="hy">2025 &amp; 2026</span></li>
+        <li><b>CS Top Scholar</b> <span class="hy">2025 &ndash; 2026</span></li>
+        <li><b>Dean&rsquo;s List</b> <span class="hy">2025 &ndash; 2026</span></li>
+        <li><b>AP Scholar</b> &mdash; College Board <span class="hy">High school</span></li>
+        <li><b>Writing Portfolio</b> &mdash; Pass with Distinction <span class="hy">2026</span></li>
+        <li><b>Associate degree before high school</b> <li><b>Running Start graduate</b> &mdash; Green River College <span class="hy">90 credits</span></li>mdash; Running Start <span class="hy">GPA 3.77</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS ==================== -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Technical skills</p>
+        <h2>What I work in</h2>
+      </div>
+
+      <dl class="skills reveal">
+        <div>
+          <dt>Languages</dt>
+          <dd class="tags">
+            <span class="tag">Java<span class="lvl">ADVANCED</span></span>
+            <span class="tag">Python<span class="lvl">ADVANCED</span></span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">PowerShell</span>
+            <span class="tag">HTML/CSS</span>
+          </dd>
+        </div>
+        <div>
+          <dt>Frameworks &amp; libraries</dt>
+          <dd class="tags">
+            <span class="tag">Spring Boot</span><span class="tag">REST APIs</span>
+            <span class="tag">scikit-learn</span><span class="tag">pandas</span>
+            <span class="tag">NumPy</span><span class="tag">Streamlit</span>
+          </dd>
+        </div>
+        <div>
+          <dt>Databases &amp; cloud</dt>
+          <dd class="tags">
+            <span class="tag">PostgreSQL</span><span class="tag">MySQL</span>
+            <span class="tag">AWS</span><span class="tag">Microsoft Azure</span>
+            <span class="tag">Render</span>
+          </dd>
+        </div>
+        <div>
+          <dt>Tools &amp; practice</dt>
+          <dd class="tags">
+            <span class="tag">Git</span><span class="tag">GitHub</span>
+            <span class="tag">Docker</span><span class="tag">Postman</span>
+            <span class="tag">pytest</span><span class="tag">JUnit</span>
+            <span class="tag">Microsoft Intune</span><span class="tag">Agile / Scrum</span>
+          </dd>
+        </div>
+        <div>
+          <dt>Certifications</dt>
+          <dd>
+            <ul class="certs certs--inline">
+              <li>
+                <span class="certs__name">AWS Certified Cloud Practitioner
+                  <span class="certs__by">Amazon Web Services</span></span>
+                <span class="certs__when">Apr 2026</span>
+              </li>
+              <li>
+                <span class="certs__name">Azure AI Essentials
+                  <span class="certs__by">Microsoft &middot; Professional Certificate</span></span>
+                <span class="certs__when">Jun 2026</span>
+              </li>
+              <li>
+                <span class="certs__name">Azure Essentials
+                  <span class="certs__by">Microsoft &middot; Professional Certificate</span></span>
+                <span class="certs__when">Jul 2026</span>
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ==================== BEYOND ==================== -->
+  <section class="section section--sunk" id="beyond">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Beyond the coursework</p>
+        <h2>Leadership, service and the rest of it</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="lead reveal">
+          <div class="lead__item">
+            <div class="lead__top">
+              <h3>Scholarship Chair, Executive Council</h3>
+              <span class="lead__org">Sigma Nu Fraternity</span>
+              <span class="lead__when">Nov 2025 &ndash; Present</span>
+            </div>
+            <p>
+              Raised chapter GPA by <strong>0.5 points across 60+ members</strong> by designing and
+              running mandatory study-hour and academic-counseling programs, tracking compliance
+              through Excel and Canvas and reporting the metrics to the Interfraternity Council.
+              Sitting on Executive Council means defending those numbers to people who would rather
+              the requirement went away.
+            </p>
+          </div>
+
+          <div class="lead__item">
+            <div class="lead__top">
+              <h3>Member</h3>
+              <span class="lead__org">LeetCode Club, WSU</span>
+              <span class="lead__when">Ongoing</span>
+            </div>
+            <p>
+              Algorithmic problem-solving and mock technical interviews with peers, with regular
+              guest sessions from working software engineers.
+            </p>
+          </div>
+        </div>
+
+        <div class="lead reveal">
+          <div class="lead__item">
+            <div class="lead__top">
+              <h3>Community service</h3>
+              <span class="lead__when">~100 hours</span>
+            </div>
+            <p>
+              Roughly 100 hours of volunteer service through school, chapter and community
+              organizations &mdash; most of it the unglamorous, show-up-early kind.
+            </p>
+          </div>
+
+          <div class="lead__item">
+            <div class="lead__top">
+              <h3>Away from the keyboard</h3>
+            </div>
+            <p>
+              Golf, mountain biking and skiing &mdash; the three good reasons to live in Washington.
+              Growing up between the Cascades and Puget Sound is most of why I&rsquo;d like to build
+              my career there too.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="shead reveal">
+        <p class="shead__eyebrow">Contact</p>
+        <h2>Let&rsquo;s talk about Summer 2027</h2>
+        <p>
+          I&rsquo;m actively interviewing for software engineering internships &mdash; particularly in
+          the Puget Sound area &mdash; and happy to walk through any project above in detail,
+          including the parts that went wrong first. Email reaches me fastest.
+        </p>
+      </div>
+
+      <div class="channels stagger">
+        <a class="channel" data-e="bXJwZW5uZXkxMDMwQGdtYWlsLmNvbQ==">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="m3 7 9 6 9-6"></path>
+          </svg>
+          <span>
+            <span class="channel__k">Email</span>
+            <span class="channel__v" data-e-text>mrpenney1030 (at) gmail.com</span>
+          </span>
+        </a>
+
+        <a class="channel" href="https://github.com/KaidenPenney" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+          <span>
+            <span class="channel__k">GitHub</span>
+            <span class="channel__v">github.com/KaidenPenney</span>
+          </span>
+        </a>
+
+        <a class="channel" href="assets/KaidenPenney_Resume_SWE.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12"></path><path d="m7 11 5 5 5-5"></path><path d="M4 20h16"></path>
+          </svg>
+          <span>
+            <span class="channel__k">Resume</span>
+            <span class="channel__v">One page, PDF</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="foot">
+        <span>Kaiden Penney &middot; Pullman &amp; Maple Valley, Washington</span>
+        <span>Hand-built &mdash; HTML, CSS, vanilla JS</span>
+        <span>Updated September 2026</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/main.js"></script>
+
+</body>
+</html>
